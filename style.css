@@ -9,6 +9,7 @@
   z-index: 1000;
   transform: scale(0);
   transition: transform 0.25s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
 .carrousel__figure {
@@ -23,6 +24,20 @@
   top: 0;
   left: 0;
   object-fit: cover;
+  border-radius: 15px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.image--active {
+  opacity: 1;
+}
+
+.carrousel__form {
+  position: absolute;
+  width: 100%;
+  top: 90%;
+  left: 0;
 }
 
 .carrousel__x {
