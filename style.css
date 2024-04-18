@@ -1,1 +1,37 @@
-/*# sourceMappingURL=style.css.map */
+.carrousel {
+  position: absolute;
+  width: 75%;
+  height: 75%;
+  top: 15%;
+  left: 13%;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: 1000;
+  transform: scale(0);
+  transition: transform 0.25s ease-in-out;
+}
+
+.carrousel__figure {
+  width: 100%;
+  height: 100%;
+}
+
+.carrousel__img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.carrousel__x {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10000;
+}
+
+.carrousel--ouvrir {
+  transform: scale(1);
+}/*# sourceMappingURL=style.css.map */
