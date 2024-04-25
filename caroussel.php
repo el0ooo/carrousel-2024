@@ -24,12 +24,17 @@ function eddym_enqueue(){
 
 add_action('wp_enqueue_scripts', 'eddym_enqueue');
 
+
+// POUR QUE CA MARCHE !!!!!!!!!
+// wp_head() -> avant la fermeture de la balise </head> (header.php)
+// wp_footer() -> avant la fermeture de la balise </footer> (footer.php)
+
 function genere_html(){
     /////////////////////////////////////// HTML
     // Le conteneur d'une boîte
     
-    $contenu = '<button class="bouton__ouvrir">Ouvrir</button>
-    <div class="carrousel">
+    $contenu = 
+    '<div class="carrousel">
     <button class="carrousel__x">X</button>
     <figure class="carrousel__figure"></figure>
     <form class="carrousel__form"></form>
