@@ -51,3 +51,19 @@
 .carrousel--ouvrir{
     transform: scale(1);
 }
+
+.carousel-prev{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.carousel-next{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1000;
+    cursor: pointer;
+}

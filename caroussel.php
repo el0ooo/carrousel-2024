@@ -38,6 +38,8 @@ function genere_html(){
     <button class="carrousel__x">X</button>
     <figure class="carrousel__figure"></figure>
     <form class="carrousel__form"></form>
+    <button class="carousel-prev">&#x2190;</button>
+    <button class="carousel-next">&#x2192;</button>
     </div>';
     
     return $contenu;
