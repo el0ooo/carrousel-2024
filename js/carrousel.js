@@ -71,7 +71,7 @@
         carrousel.classList.remove('carrousel--ouvrir');
     });
 
-    // Arrow navigation for the carousel
+    // Section faites avec chatGTP
     const prevButton = document.querySelector('.carousel-prev');
     const nextButton = document.querySelector('.carousel-next');
     const carrouselImages = document.querySelectorAll('.carrousel__img');
