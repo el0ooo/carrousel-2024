@@ -3,7 +3,7 @@
  * Plugin Name: Caroussel
  * Description: Affiche un carroussel d'images controlé par des boutons radio
  * Author: Eloi Chayer
- * Version: 1.0.0
+ * Version: 1.1.0
  */
 
 function eddym_enqueue(){
