@@ -2,11 +2,11 @@
   position: fixed;
   width: 75%;
   height: 80vh;
-  top: 38%;
+  top: 18%;
   left: 13%;
   border-radius: 15px;
   background-color: rgba(255, 255, 255, 0.2);
-  z-index: 100;
+  z-index: 10000;
   transform: scale(0);
   transition: transform 0.25s ease-in-out;
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;

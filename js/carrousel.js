@@ -75,7 +75,7 @@
     const prevButton = document.querySelector('.carousel-prev');
     const nextButton = document.querySelector('.carousel-next');
     const carrouselImages = document.querySelectorAll('.carrousel__img');
-    let currentIndex = 0;
+    let currentIndex = indexRadio;
 
     prevButton.addEventListener('click', () => {
         if (currentIndex > 0) {
