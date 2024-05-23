@@ -49,7 +49,7 @@
         carrousel.classList.remove('carrousel--ouvrir');
     });
 
-    // Section for previous and next buttons
+    // Section for previous and next buttons - aider de ChatGPT
     const prevButton = document.querySelector('.carousel-prev');
     const nextButton = document.querySelector('.carousel-next');
     const carrouselImages = document.querySelectorAll('.carrousel__img');
