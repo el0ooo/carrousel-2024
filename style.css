@@ -1,1 +1,69 @@
-/*# sourceMappingURL=style.css.map */
+.carrousel {
+  position: fixed;
+  width: 75%;
+  height: 80vh;
+  top: 18%;
+  left: 13%;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: 100001;
+  transform: scale(0);
+  transition: transform 0.25s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.carrousel__figure {
+  width: 100%;
+  height: 80vh;
+}
+
+.carrousel__img {
+  position: absolute;
+  width: 100%;
+  height: 80vh;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  border-radius: 15px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.image--active {
+  opacity: 1;
+}
+
+.carrousel__form {
+  position: absolute;
+  width: 100%;
+  top: 90%;
+  left: 0;
+}
+
+.carrousel__x {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 100001;
+  pointer-events: all;
+}
+
+.carrousel--ouvrir {
+  transform: scale(1);
+}
+
+.carousel-prev {
+  position: absolute;
+  top: 50%;
+  left: -2.5%;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.carousel-next {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: 1000;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
